@@ -23,6 +23,9 @@ function checkAge() {
 }
 checkAge();
 
+// la funzione verifica l'età dell'utente, se min o magg di 18, e stampa un messaggio. La variabile messaggio però è dichiarata con const e non con let, inoltre non c'è stampa di alcun tipo, quindi il messaggio non comparirà
+
+
 // ESERCIZIO 2
 function printColorsNumber() {
     const colors = ['blue', 'red', 'yellow', 'green', 'black'];
@@ -30,6 +33,7 @@ function printColorsNumber() {
 }
 printColorsNumber();
 
+// L E N G T H
 
 // ESERCIZIO 3
 function addNumbers() {
@@ -40,6 +44,7 @@ function addNumbers() {
 }
 addNumbers();
 
+// la funzione dovrebbe sommare due SVGAnimatedNumberList, ma il prompt ritorna stringhe, quindi non avverrà una somma ma una concatenazione
 
 // ESERCIZIO 4
 function checkAccess() {
@@ -60,6 +65,7 @@ function checkAccess() {
 }
 checkAccess();
 
+// la funzione garantisce l'accesso solo agli indirizzi presenti in array. tuttavia viene dichiarata tra apici, quindi con una stringa anzichè un valore booleano. 
 
 // ESERCIZIO 5 (suggerimento: c'è un solo errore)
 function checkAccessImproved() {
@@ -90,7 +96,7 @@ function checkAccessImproved() {
     checkAccessImproved();
 
 
-
+// manca la }
 
 
 
